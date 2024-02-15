@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+.App {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -30,13 +30,13 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+h2 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
+.click {
+  border-radius: 20px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
@@ -46,12 +46,13 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+.click:hover {
   border-color: #646cff;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.click:focus,
+.click:focus-visible {
+  outline: 10px auto -webkit-focus-ring-color;
+  box-shadow: 0 0 5px 2px blue;
 }
 
 @media (prefers-color-scheme: light) {
